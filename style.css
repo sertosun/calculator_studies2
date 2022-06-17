@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Kdam+Thmor+Pro&family=Kumbh+Sans:wght@400;700&family=Open+Sans&family=Overpass:wght@400;700&family=Poppins:wght@300;400;700&family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Josefin+Sans&family=Kdam+Thmor+Pro&family=Poppins:wght@300;500;600&family=Press+Start+2P&family=Raleway:wght@300;400;700;800&family=Roboto:wght@400;500&display=swap");
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 :root {
@@ -36,6 +36,7 @@ section {
   font-size: 2rem;
   position: relative;
   user-select: none;
+  overflow: hidden;
 }
 
 .display1 {
@@ -56,7 +57,6 @@ section {
   color: white;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
 }
 
 .button {
@@ -66,7 +66,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 20px;
   text-align: center;
   cursor: pointer;
   transition: all 200ms;
